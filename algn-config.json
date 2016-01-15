@@ -1,0 +1,13 @@
+{
+    "fs" : [
+        "/Users/BenJohnson/data/building-permits/fx3a-kauu.json",
+        "/Users/BenJohnson/data/building-permits/akhc-zaz6.json",
+        "/Users/BenJohnson/data/building-permits/cvnj-fvgf.json",
+        "/Users/BenJohnson/data/building-permits/4hr8-fgbf.json",
+        "/Users/BenJohnson/data/building-permits/hqe6-tuji.json",
+        "/Users/BenJohnson/data/building-permits/vcj3-ncb3.json",
+        "/Users/BenJohnson/data/building-permits/qt6m-65bz.json"
+    ],
+    "train_model" : false,
+    "model_path"  : "/Users/BenJohnson/projects/building/models/bp_101"
+}

@@ -1,0 +1,25 @@
+{
+    "meta" : {
+        "input"  : "/Users/BenJohnson/projects/building/csv-data/*.csv",
+        "output" : "output/wex-output-1.json"
+    },
+    
+    "known_fields" : {
+        "address" : {
+            "mags-97de.csv" : "address",
+            "rcm3-fn58.csv" : "address"
+        },
+        "latitude" : {
+            "mags-97de.csv" : "latitude",
+            "rcm3-fn58.csv" : "location_1__latitude"
+        },
+        "longitude" : {
+            "mags-97de.csv" : "longitude",
+            "rcm3-fn58.csv" : "location_1__longitude"
+        },
+        "application_date" : {
+            "mags-97de.csv" : "application_date",
+            "rcm3-fn58.csv" : "filingdate"
+        }
+    }
+}
