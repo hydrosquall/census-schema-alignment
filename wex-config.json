@@ -1,7 +1,7 @@
 {
     "meta" : {
         "input"  : "/Users/BenJohnson/projects/building/csv-data/*.csv",
-        "output" : "output/wex-output-1.json"
+        "output" : "output/wex-output.json"
     },
     
     "known_fields" : {
