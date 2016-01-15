@@ -9,12 +9,13 @@ Census Schema Alignment
     python setup.py install
   
     # Download `wit`
+    cd census-schema-alignment
     git clone https://github.com/bkj/wit.git
   
 ### Data
 
-Download `formatted-data.tar.gz`
 
+    wget http://.../formatted-data.tar.gz
     tar -xzvf formatted-data.tar.gz    
     python utilities/to_csv.py \
         --infile /path/to/formatted-data \
@@ -34,3 +35,5 @@ Extraction
     python algn-resolve.py \
         --infile output/wex-output.json \
         --outfile output/wex-output-resolved.json
+
+(Some paths in the config files may need to be changed for examples to run cleanly.)

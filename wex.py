@@ -17,7 +17,7 @@ import json
 from glob import glob
 
 import sys
-sys.path.append('/Users/BenJohnson/projects/what-is-this/wit/')
+sys.path.append('wit')
 from wit import *
 from mmd import *
 from hackathon_functions import *

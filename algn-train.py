@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 
 import sys
-sys.path.append('/Users/BenJohnson/projects/what-is-this/wit/')
+sys.path.append('wit')
 from wit import *
 from mmd import *
 from helper_functions import *

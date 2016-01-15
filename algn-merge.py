@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 
 import sys
-sys.path.append('/Users/BenJohnson/projects/what-is-this/wit/')
+sys.path.append('wit')
 from mmd import *
 
 from munkres import Munkres
