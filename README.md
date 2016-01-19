@@ -1,5 +1,5 @@
 # census-schema-alignment
-Census Schema Alignment
+Census Schema Alignment (January 2016 XDATA Census Hackathon)
 
 ### Install
 
