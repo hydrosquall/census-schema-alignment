@@ -3,17 +3,23 @@ Census Schema Alignment (January 2016 XDATA Census Hackathon)
 
 ### Install
 
+    # Create a new python environment with anaconda to ensure that
+    # numpy and scipy are installed correctly on Windows
+    conda create -n census_align python=2.7 anaconda
+    
+    # activate this environment from windows bash
+    source activate census_align
+
     # Install forked version of Keras
     git clone https://github.com/bkj/keras.git
     cd keras
     python setup.py install
   
-    # Download `wit`
-    cd census-schema-alignment
+    # Download `wit` # return to census-schema-alignment
+    cd ..
     git clone https://github.com/bkj/wit.git
   
 ### Data
-
 
     wget http://.../formatted-data.tar.gz
     tar -xzvf formatted-data.tar.gz    
